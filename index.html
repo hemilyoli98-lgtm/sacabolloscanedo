@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canedo Sacabollos | Reparación de Abolladuras y Capacitación PDR</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+
+    <div class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white text-xs md:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-center">
+            <span class="font-semibold tracking-wide uppercase"><i class="fa-solid fa-fire mr-1.5 animate-pulse"></i> ¡Promoción por tiempo limitado en Capacitación!</span>
+            <div class="flex items-center gap-1 font-mono font-bold bg-slate-950/40 px-3 py-0.5 rounded border border-white/10">
+                <span id="countdown">00:00:00</span>
+            </div>
+            <a href="#inscripcion" class="underline hover:text-blue-200 font-medium transition-colors">Inscribirme y pagar ahora &rarr;</a>
+        </div>
+    </div>
+
+    <header class="backdrop-blur-md bg-slate-950/90 border-b border-slate-900 sticky top-[44px] sm:top-[38px] z-40">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-blue-500 uppercase flex items-center gap-2">
+                Canedo<span class="text-slate-300 font-light">Sacabollos</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+                <a href="#inicio" class="hover:text-blue-400 transition-colors">Inicio</a>
+                <a href="#taller" class="hover:text-blue-400 transition-colors">Taller Técnico</a>
+                <a href="#curso" class="hover:text-blue-400 transition-colors">El Curso Premium</a>
+                <a href="#ubicacion" class="hover:text-blue-400 transition-colors">Ubicación</a>
+            </nav>
+            <a href="#inscripcion" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 text-xs font-semibold tracking-wider uppercase bg-blue-600 text-white hover:bg-blue-500 transition-colors">
+                Reservar Vacante
+            </a>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative min-h-[85vh] flex items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-slate-950 px-6 overflow-hidden">
+        <div class="absolute inset-0 opacity-15 mix-blend-luminosity pointer-events-none">
+            <img src="sitio1.jpg" alt="Canedo Sacabollos en acción" class="w-full h-full object-cover object-center">
+        </div>
+        
+        <div class="relative z-10 max-w-5xl text-center">
+            <span class="text-xs font-semibold tracking-[0.3em] text-blue-500 uppercase block mb-4">Pioneros en el Oficio PDR</span>
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight max-w-4xl mx-auto">
+                Reparación Profesional de Abolladuras y Capacitación Elite
+            </h1>
+            <p class="text-base md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                Quitamos abolladuras de granizo o de choque manteniendo la pintura de fábrica intacta. Aprendé el oficio con los mejores expertos del país.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5491124538732?text=Hola!%20Quiero%20presupuesto%20por%20una%20abolladura" target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wider uppercase bg-emerald-600 text-white hover:bg-emerald-500 transition-colors shadow-lg shadow-emerald-900/20">
+                    <i class="fab fa-whatsapp mr-2 text-lg"></i> Presupuesto por Abolladuras
+                </a>
+                <a href="#curso" class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold tracking-wider uppercase bg-blue-600 text-white hover:bg-blue-500 transition-colors">
+                    Ver Curso de Capacitación
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="taller" class="py-24 px-6 max-w-7xl mx-auto border-t border-slate-900">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-xs font-semibold tracking-[0.25em] text-blue-500 uppercase block mb-3">Servicio de Reparación</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white tracking-tight mb-6">Tratamiento Artesanal de Carrocerías</h2>
+                <p class="text-slate-400 font-light leading-relaxed mb-6">
+                    Especialistas en la restauración milimétrica de paneles metálicos. El sistema Paintless Dent Repair (PDR) es la única alternativa que conserva el valor original de reventa de tu auto.
+                </p>
+                <ul class="space-y-4 text-slate-300 font-light text-sm">
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check text-blue-500"></i> **Abolladuras de Granizo:** Eliminación completa de impactos climáticos sin masilla.</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check text-blue-500"></i> **Abolladuras de Choque:** Desabollado estructural complejo respetando las líneas de diseño.</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check text-blue-500"></i> **Sin Alterar la Pintura:** Sin parches, sin diferencias de color, acabado de fábrica.</li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-slate-900 border border-slate-800 p-2 rounded overflow-hidden aspect-video">
+                    <img src="sitio2.jpg" alt="Taller Canedo" class="w-full h-full object-cover">
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-2 rounded overflow-hidden aspect-video mt-6">
+                    <img src="sitio3.jpg" alt="Reparación de abolladuras" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curso" class="py-24 bg-slate-900/30 border-t border-slate-900 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-semibold tracking-[0.25em] text-blue-500 uppercase block mb-3">Formación Profesional</span>
+                <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight mb-4">El Mejor Curso de Sacabollos del País</h2>
+                <p class="text-slate-400 font-light text-lg">Entrenate con los pioneros del oficio. Un programa diseñado para darte una salida laboral rápida, independiente y altamente rentable.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-slate-900/60 border border-slate-800/80 p-8 rounded-xl">
+                    <div class="w-12 h-12 flex items-center justify-center bg-blue-600/10 border border-blue-500/20 text-blue-400 mb-6 rounded-lg text-xl">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Modalidad Presencial</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">
+                        Práctica intensiva directo sobre paneles reales en nuestro taller escuela. Aprendé el uso correcto de palancas, ventosas, lámparas de líneas y la sensibilidad necesaria para dominar la chapa bajo la guía constante de los pioneros.
+                    </p>
+                </div>
+                <div class="bg-slate-900/60 border border-slate-800/80 p-8 rounded-xl">
+                    <div class="w-12 h-12 flex items-center justify-center bg-blue-600/10 border border-blue-500/20 text-blue-400 mb-6 rounded-lg text-xl">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Modalidad Online</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">
+                        Accedé a todo el conocimiento teórico, secretos del oficio, técnicas de lectura de luz y modelos de negocio desde cualquier parte del mundo. Clases de alta definición estructuradas paso a paso con soporte técnico docente.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden max-w-4xl mx-auto relative group">
+                <img src="sitio4.jpg" alt="Instructores Canedo Sacabollos" class="w-full h-full object-cover max-h-[400px] opacity-70">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                <div class="absolute bottom-6 left-6 right-6 text-center md:text-left">
+                    <p class="text-white text-lg font-medium">Capacitate con los que saben de verdad. Décadas de experiencia transmitidas sin secretos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscripcion" class="py-24 px-6 max-w-4xl mx-auto border-t border-slate-900">
+        <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-8 md:p-12 shadow-2xl">
+            <div class="text-center mb-10">
+                <span class="text-xs font-semibold tracking-[0.25em] text-blue-500 uppercase block mb-2">Inscripción Directa</span>
+                <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Completá tus datos para acceder al beneficio</h3>
+                <p class="text-slate-400 text-sm font-light">Luego de enviar el formulario, el sistema te redirigirá automáticamente a la plataforma segura de Mercado Pago para procesar tu matrícula.</p>
+            </div>
+
+            <form action="https://formspree.io/f/TU_ENDPOINT_DE_FORMSPREE" method="POST" class="space-y-6">
+                <input type="hidden" name="_next" value="TU_LINK_DE_MERCADOPAGO">
+                <input type="hidden" name="_subject" value="¡Nueva inscripción al Curso de Sacabollos!">
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-medium uppercase tracking-wider text-slate-400 mb-2">Nombre Completo</label>
+                        <input type="text" name="nombre" required class="w-full bg-slate-950 border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="Ej: Juan Pérez">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium uppercase tracking-wider text-slate-400 mb-2">DNI</label>
+                        <input type="text" name="dni" required class="w-full bg-slate-950 border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="Sin puntos ni espacios">
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-medium uppercase tracking-wider text-slate-400 mb-2">Localidad / Provincia</label>
+                        <input type="text" name="localidad" required class="w-full bg-slate-950 border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="Ej: San Justo, Buenos Aires">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium uppercase tracking-wider text-slate-400 mb-2">Número de Teléfono</label>
+                        <input type="tel" name="telefono" required class="w-full bg-slate-950 border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="Ej: 11 2453-8732">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-medium uppercase tracking-wider text-slate-400 mb-2">Correo Electrónico</label>
+                    <input type="email" name="email" required class="w-full bg-slate-950 border border-slate-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="tuemail@ejemplo.com">
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm tracking-wider uppercase py-4 rounded transition-colors shadow-lg shadow-blue-900/30 cursor-pointer">
+                    <i class="fa-solid fa-shield-halved mr-2"></i> Confirmar Datos y Pagar por Mercado Pago
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="py-24 px-6 max-w-7xl mx-auto border-t border-slate-900">
+        <div class="grid lg:grid-cols-3 gap-12 items-center">
+            <div class="lg:col-span-1">
+                <span class="text-xs font-semibold tracking-[0.25em] text-blue-500 uppercase block mb-3">¿Dónde Estamos?</span>
+                <h3 class="text-3xl font-bold text-white tracking-tight mb-4">Nuestro Taller Central</h3>
+                <p class="text-slate-400 font-light leading-relaxed mb-6">
+                    Te esperamos en nuestras instalaciones equipadas con iluminación técnica especializada para el diagnóstico preciso de abolladuras.
+                </p>
+                <div class="space-y-3 text-sm font-light text-slate-300">
+                    <p><i class="fa-solid fa-location-dot text-blue-500 mr-2.5"></i> Dellepiane Sur 3822, Buenos Aires</p>
+                    <p><i class="fa-solid fa-phone text-blue-500 mr-2.5"></i> +54 9 11 2453-8732</p>
+                </div>
+                <a href="https://wa.me/5491124538732" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-400 mt-6 hover:text-emerald-300 transition-colors">
+                    <i class="fab fa-whatsapp text-lg"></i> Chatear con Soporte Técnico &rarr;
+                </a>
+            </div>
+            
+            <div class="lg:col-span-2 w-full h-[350px] bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.428781358941!2d-58.4687002!3d-34.6682498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbfa606b23b1%3A0x67396a84ef92a5b2!2sAv.%20Dellepiane%20Sur%203822%2C%20C1439%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716940000000!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-900 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-slate-500 text-xs tracking-wider">
+                &copy; 2026 Canedo Sacabollos. Todos los derechos reservados. | Paintless Dent Repair Elite.
+            </div>
+            <div class="flex space-x-6 text-slate-400 text-sm">
+                <a href="https://wa.me/5491124538732" class="hover:text-blue-500 transition-colors"><i class="fab fa-whatsapp text-lg"></i></a>
+                <a href="#" class="hover:text-blue-500 transition-colors"><i class="fab fa-instagram text-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function startTimer(duration, display) {
+            var timer = duration, hours, minutes, seconds;
+            setInterval(function () {
+                hours = parseInt(timer / 3600, 10);
+                minutes = parseInt((timer % 3600) / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                hours = hours < 10 ? "0" + hours : hours;
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = hours + ":" + minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration; // Se reinicia automáticamente cuando llega a cero
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            var threeHours = 60 * 60 * 3 + 14 * 60 + 22; // Configurado en 3 horas de corrido
+            var display = document.querySelector('#countdown');
+            startTimer(threeHours, display);
+        };
+    </script>
+
+</body>
+</html>
