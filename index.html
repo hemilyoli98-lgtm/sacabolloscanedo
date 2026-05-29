@@ -15,25 +15,29 @@
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
 
-    <div class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white text-xs md:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-md">
+    <!-- Barra de Promoción con Cronómetro (Color Amarillo de Alerta) -->
+    <div class="bg-amber-400 text-slate-950 text-xs md:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-md font-medium">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-center">
-            <span class="font-semibold tracking-wide uppercase"><i class="fa-solid fa-fire mr-1.5 animate-pulse"></i> ¡Promoción por tiempo limitado en Capacitación!</span>
-            <div class="flex items-center gap-1 font-mono font-bold bg-slate-950/40 px-3 py-0.5 rounded border border-white/10">
+            <span class="font-bold tracking-wide uppercase text-slate-900"><i class="fa-solid fa-fire mr-1.5 animate-pulse text-orange-600"></i> ¡Promoción por tiempo limitado en Capacitación!</span>
+            <div class="flex items-center gap-1 font-mono font-bold bg-slate-950 text-white px-3 py-0.5 rounded border border-white/10">
                 <span id="countdown">00:00:00</span>
             </div>
-            <a href="#inscripcion" class="underline hover:text-blue-200 font-medium transition-colors">Inscribirme y pagar ahora &rarr;</a>
+            <a href="#inscripcion" class="underline hover:text-blue-900 font-bold transition-colors">Inscribirme y pagar ahora &rarr;</a>
         </div>
     </div>
 
+    <!-- Navbar -->
     <header class="backdrop-blur-md bg-slate-950/90 border-b border-slate-900 sticky top-[44px] sm:top-[38px] z-40">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="text-xl font-bold tracking-wider text-blue-500 uppercase flex items-center gap-2">
-                Canedo<span class="text-slate-300 font-light">Sacabollos</span>
+            <a href="#" class="flex flex-col justify-center border-l-4 border-blue-500 pl-3">
+                <span class="text-xl font-bold tracking-wider text-blue-500 uppercase leading-none">[cite: 1]Canedo</span>
+                <span class="text-base font-light tracking-widest text-slate-200 uppercase leading-tight">[cite: 1]Sacabollos</span>
+                <span class="text-[9px] text-slate-400 font-medium tracking-normal italic">[cite: 1]Reparamos tu auto sin pintar</span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
                 <a href="#inicio" class="hover:text-blue-400 transition-colors">Inicio</a>
                 <a href="#taller" class="hover:text-blue-400 transition-colors">Taller Técnico</a>
-                <a href="#curso" class="hover:text-blue-400 transition-colors">El Curso</a>
+                <a href="#curso" class="hover:text-blue-400 transition-colors">El Curso Premium</a>
                 <a href="#ubicacion" class="hover:text-blue-400 transition-colors">Ubicación</a>
             </nav>
             <a href="#inscripcion" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 text-xs font-semibold tracking-wider uppercase bg-blue-600 text-white hover:bg-blue-500 transition-colors">
@@ -81,14 +85,14 @@
                 </ul>
             </div>
             <div class="grid grid-cols-2 gap-4">
-                <div class="bg-slate-900 border border-slate-800 p-2 rounded overflow-hidden aspect-video">
-                    <img src="sitio2.jpg" alt="Taller Canedo" class="w-full h-full object-cover">
+                <div class="bg-slate-900 border border-slate-800 p-1 rounded shadow-lg overflow-hidden h-48 md:h-64">
+                    <img src="sitio2.jpg" alt="Taller Canedo" class="w-full h-full object-cover object-top">
                 </div>
-                <div class="bg-slate-900 border border-slate-800 p-2 rounded overflow-hidden aspect-video mt-6">
-                    <img src="sitio3.jpg" alt="Reparación de abolladuras" class="w-full h-full object-cover">
+                <div class="bg-slate-900 border border-slate-800 p-1 rounded shadow-lg overflow-hidden h-48 md:h-64 mt-6">
+                    <img src="sitio3.jpg" alt="Reparación de abolladuras" class="w-full h-full object-cover object-top">
                 </div>
             </div>
-        </div>
+             
     </section>
 
     <section id="curso" class="py-24 bg-slate-900/30 border-t border-slate-900 px-6">
